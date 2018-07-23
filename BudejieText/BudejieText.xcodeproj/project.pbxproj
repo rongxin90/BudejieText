@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C57D23F3210592A100CC901A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D23F2210592A100CC901A /* AppDelegate.m */; };
-		C57D23F6210592A100CC901A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D23F5210592A100CC901A /* ViewController.m */; };
-		C57D23F9210592A100CC901A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57D23F7210592A100CC901A /* Main.storyboard */; };
 		C57D23FB210592A100CC901A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57D23FA210592A100CC901A /* Assets.xcassets */; };
 		C57D23FE210592A100CC901A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57D23FC210592A100CC901A /* LaunchScreen.storyboard */; };
-		C57D2401210592A100CC901A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D2400210592A100CC901A /* main.m */; };
 		C57D240B210592A100CC901A /* BudejieTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D240A210592A100CC901A /* BudejieTextTests.m */; };
 		C57D2416210592A100CC901A /* BudejieTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D2415210592A100CC901A /* BudejieTextUITests.m */; };
+		C57D242D2106248200CC901A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24262106248200CC901A /* AppDelegate.m */; };
+		C57D242E2106248200CC901A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24262106248200CC901A /* AppDelegate.m */; };
+		C57D242F2106248200CC901A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D242A2106248200CC901A /* main.m */; };
+		C57D24302106248200CC901A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D242A2106248200CC901A /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +36,18 @@
 
 /* Begin PBXFileReference section */
 		C57D23EE210592A100CC901A /* BudejieText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudejieText.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C57D23F1210592A100CC901A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C57D23F2210592A100CC901A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C57D23F4210592A100CC901A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C57D23F5210592A100CC901A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C57D23F8210592A100CC901A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C57D23FA210592A100CC901A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C57D23FD210592A100CC901A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C57D23FF210592A100CC901A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C57D2400210592A100CC901A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C57D2406210592A100CC901A /* BudejieTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudejieTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57D240A210592A100CC901A /* BudejieTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BudejieTextTests.m; sourceTree = "<group>"; };
 		C57D240C210592A100CC901A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C57D2411210592A100CC901A /* BudejieTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudejieTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57D2415210592A100CC901A /* BudejieTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BudejieTextUITests.m; sourceTree = "<group>"; };
 		C57D2417210592A100CC901A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57D24252106248200CC901A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C57D24262106248200CC901A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C57D242A2106248200CC901A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +84,7 @@
 				C57D23EF210592A100CC901A /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		C57D23EF210592A100CC901A /* Products */ = {
 			isa = PBXGroup;
@@ -101,15 +99,10 @@
 		C57D23F0210592A100CC901A /* BudejieText */ = {
 			isa = PBXGroup;
 			children = (
-				C57D23F1210592A100CC901A /* AppDelegate.h */,
-				C57D23F2210592A100CC901A /* AppDelegate.m */,
-				C57D23F4210592A100CC901A /* ViewController.h */,
-				C57D23F5210592A100CC901A /* ViewController.m */,
-				C57D23F7210592A100CC901A /* Main.storyboard */,
+				C57D24232106248200CC901A /* Class */,
 				C57D23FA210592A100CC901A /* Assets.xcassets */,
 				C57D23FC210592A100CC901A /* LaunchScreen.storyboard */,
 				C57D23FF210592A100CC901A /* Info.plist */,
-				C57D2400210592A100CC901A /* main.m */,
 			);
 			path = BudejieText;
 			sourceTree = "<group>";
@@ -130,6 +123,64 @@
 				C57D2417210592A100CC901A /* Info.plist */,
 			);
 			path = BudejieTextUITests;
+			sourceTree = "<group>";
+		};
+		C57D24232106248200CC901A /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C57D24242106248200CC901A /* App */,
+				C57D24272106248200CC901A /* Essence（我） */,
+				C57D24282106248200CC901A /* Follow（关注） */,
+				C57D24292106248200CC901A /* Main */,
+				C57D242B2106248200CC901A /* Me（我） */,
+				C57D242C2106248200CC901A /* New（新帖） */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C57D24242106248200CC901A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C57D24252106248200CC901A /* AppDelegate.h */,
+				C57D24262106248200CC901A /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C57D24272106248200CC901A /* Essence（我） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Essence（我）";
+			sourceTree = "<group>";
+		};
+		C57D24282106248200CC901A /* Follow（关注） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Follow（关注）";
+			sourceTree = "<group>";
+		};
+		C57D24292106248200CC901A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C57D242A2106248200CC901A /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C57D242B2106248200CC901A /* Me（我） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Me（我）";
+			sourceTree = "<group>";
+		};
+		C57D242C2106248200CC901A /* New（新帖） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New（新帖）";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +245,7 @@
 		C57D23E6210592A100CC901A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GRX;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = guirongxin;
 				TargetAttributes = {
@@ -240,7 +292,6 @@
 			files = (
 				C57D23FE210592A100CC901A /* LaunchScreen.storyboard in Resources */,
 				C57D23FB210592A100CC901A /* Assets.xcassets in Resources */,
-				C57D23F9210592A100CC901A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C57D23F6210592A100CC901A /* ViewController.m in Sources */,
-				C57D2401210592A100CC901A /* main.m in Sources */,
-				C57D23F3210592A100CC901A /* AppDelegate.m in Sources */,
+				C57D242F2106248200CC901A /* main.m in Sources */,
+				C57D242D2106248200CC901A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +325,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57D242E2106248200CC901A /* AppDelegate.m in Sources */,
+				C57D24302106248200CC901A /* main.m in Sources */,
 				C57D240B210592A100CC901A /* BudejieTextTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +355,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C57D23F7210592A100CC901A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C57D23F8210592A100CC901A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C57D23FC210592A100CC901A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,12 +476,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSSQP7JHBV;
 				INFOPLIST_FILE = BudejieText/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guirongxin.www.BudejieText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -447,12 +492,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KSSQP7JHBV;
 				INFOPLIST_FILE = BudejieText/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guirongxin.www.BudejieText;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
