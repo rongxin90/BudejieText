@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5504AF021082BE800E4198E /* UIImage+Render.m in Sources */ = {isa = PBXBuildFile; fileRef = C5504AEF21082BE800E4198E /* UIImage+Render.m */; };
+		C5504AF121082BE800E4198E /* UIImage+Render.m in Sources */ = {isa = PBXBuildFile; fileRef = C5504AEF21082BE800E4198E /* UIImage+Render.m */; };
 		C57D23FB210592A100CC901A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57D23FA210592A100CC901A /* Assets.xcassets */; };
 		C57D23FE210592A100CC901A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57D23FC210592A100CC901A /* LaunchScreen.storyboard */; };
 		C57D240B210592A100CC901A /* BudejieTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D240A210592A100CC901A /* BudejieTextTests.m */; };
@@ -15,6 +17,18 @@
 		C57D242E2106248200CC901A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24262106248200CC901A /* AppDelegate.m */; };
 		C57D242F2106248200CC901A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D242A2106248200CC901A /* main.m */; };
 		C57D24302106248200CC901A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D242A2106248200CC901A /* main.m */; };
+		C57D24722106262600CC901A /* EssenseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24712106262600CC901A /* EssenseNavController.m */; };
+		C57D24732106262600CC901A /* EssenseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24712106262600CC901A /* EssenseNavController.m */; };
+		C57D24762106265300CC901A /* FollowNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24752106265300CC901A /* FollowNavController.m */; };
+		C57D24772106265300CC901A /* FollowNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24752106265300CC901A /* FollowNavController.m */; };
+		C57D247A2106266D00CC901A /* MeNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24792106266D00CC901A /* MeNavViewController.m */; };
+		C57D247B2106266D00CC901A /* MeNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24792106266D00CC901A /* MeNavViewController.m */; };
+		C57D247E2106267E00CC901A /* NewNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D247D2106267E00CC901A /* NewNavViewController.m */; };
+		C57D247F2106267E00CC901A /* NewNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D247D2106267E00CC901A /* NewNavViewController.m */; };
+		C57D2483210626DE00CC901A /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D2482210626DE00CC901A /* PublishViewController.m */; };
+		C57D2484210626DE00CC901A /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D2482210626DE00CC901A /* PublishViewController.m */; };
+		C57D24872106273A00CC901A /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24862106273A00CC901A /* MainTabBarController.m */; };
+		C57D24882106273A00CC901A /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24862106273A00CC901A /* MainTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5504AEE21082BE800E4198E /* UIImage+Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Render.h"; sourceTree = "<group>"; };
+		C5504AEF21082BE800E4198E /* UIImage+Render.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Render.m"; sourceTree = "<group>"; };
 		C57D23EE210592A100CC901A /* BudejieText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudejieText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57D23FA210592A100CC901A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C57D23FD210592A100CC901A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,6 +64,18 @@
 		C57D24252106248200CC901A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C57D24262106248200CC901A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C57D242A2106248200CC901A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C57D24702106262600CC901A /* EssenseNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssenseNavController.h; sourceTree = "<group>"; };
+		C57D24712106262600CC901A /* EssenseNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EssenseNavController.m; sourceTree = "<group>"; };
+		C57D24742106265300CC901A /* FollowNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowNavController.h; sourceTree = "<group>"; };
+		C57D24752106265300CC901A /* FollowNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowNavController.m; sourceTree = "<group>"; };
+		C57D24782106266D00CC901A /* MeNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeNavViewController.h; sourceTree = "<group>"; };
+		C57D24792106266D00CC901A /* MeNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeNavViewController.m; sourceTree = "<group>"; };
+		C57D247C2106267E00CC901A /* NewNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewNavViewController.h; sourceTree = "<group>"; };
+		C57D247D2106267E00CC901A /* NewNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewNavViewController.m; sourceTree = "<group>"; };
+		C57D2481210626DE00CC901A /* PublishViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublishViewController.h; sourceTree = "<group>"; };
+		C57D2482210626DE00CC901A /* PublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishViewController.m; sourceTree = "<group>"; };
+		C57D24852106273A00CC901A /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		C57D24862106273A00CC901A /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5504AED21082BB300E4198E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C5504AEE21082BE800E4198E /* UIImage+Render.h */,
+				C5504AEF21082BE800E4198E /* UIImage+Render.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		C57D23E5210592A100CC901A = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +136,7 @@
 		C57D23F0210592A100CC901A /* BudejieText */ = {
 			isa = PBXGroup;
 			children = (
+				C5504AED21082BB300E4198E /* Others */,
 				C57D24232106248200CC901A /* Class */,
 				C57D23FA210592A100CC901A /* Assets.xcassets */,
 				C57D23FC210592A100CC901A /* LaunchScreen.storyboard */,
@@ -128,8 +166,9 @@
 		C57D24232106248200CC901A /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				C57D2480210626C700CC901A /* Publish(发布) */,
+				C57D246F210625F100CC901A /* Essence（精华） */,
 				C57D24242106248200CC901A /* App */,
-				C57D24272106248200CC901A /* Essence（我） */,
 				C57D24282106248200CC901A /* Follow（关注） */,
 				C57D24292106248200CC901A /* Main */,
 				C57D242B2106248200CC901A /* Me（我） */,
@@ -147,16 +186,11 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		C57D24272106248200CC901A /* Essence（我） */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Essence（我）";
-			sourceTree = "<group>";
-		};
 		C57D24282106248200CC901A /* Follow（关注） */ = {
 			isa = PBXGroup;
 			children = (
+				C57D24742106265300CC901A /* FollowNavController.h */,
+				C57D24752106265300CC901A /* FollowNavController.m */,
 			);
 			path = "Follow（关注）";
 			sourceTree = "<group>";
@@ -165,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				C57D242A2106248200CC901A /* main.m */,
+				C57D24852106273A00CC901A /* MainTabBarController.h */,
+				C57D24862106273A00CC901A /* MainTabBarController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -172,6 +208,8 @@
 		C57D242B2106248200CC901A /* Me（我） */ = {
 			isa = PBXGroup;
 			children = (
+				C57D24782106266D00CC901A /* MeNavViewController.h */,
+				C57D24792106266D00CC901A /* MeNavViewController.m */,
 			);
 			path = "Me（我）";
 			sourceTree = "<group>";
@@ -179,8 +217,28 @@
 		C57D242C2106248200CC901A /* New（新帖） */ = {
 			isa = PBXGroup;
 			children = (
+				C57D247C2106267E00CC901A /* NewNavViewController.h */,
+				C57D247D2106267E00CC901A /* NewNavViewController.m */,
 			);
 			path = "New（新帖）";
+			sourceTree = "<group>";
+		};
+		C57D246F210625F100CC901A /* Essence（精华） */ = {
+			isa = PBXGroup;
+			children = (
+				C57D24702106262600CC901A /* EssenseNavController.h */,
+				C57D24712106262600CC901A /* EssenseNavController.m */,
+			);
+			path = "Essence（精华）";
+			sourceTree = "<group>";
+		};
+		C57D2480210626C700CC901A /* Publish(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				C57D2481210626DE00CC901A /* PublishViewController.h */,
+				C57D2482210626DE00CC901A /* PublishViewController.m */,
+			);
+			path = "Publish(发布)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,8 +374,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57D247A2106266D00CC901A /* MeNavViewController.m in Sources */,
+				C5504AF021082BE800E4198E /* UIImage+Render.m in Sources */,
+				C57D247E2106267E00CC901A /* NewNavViewController.m in Sources */,
+				C57D24762106265300CC901A /* FollowNavController.m in Sources */,
+				C57D2483210626DE00CC901A /* PublishViewController.m in Sources */,
 				C57D242F2106248200CC901A /* main.m in Sources */,
 				C57D242D2106248200CC901A /* AppDelegate.m in Sources */,
+				C57D24872106273A00CC901A /* MainTabBarController.m in Sources */,
+				C57D24722106262600CC901A /* EssenseNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,8 +390,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57D2484210626DE00CC901A /* PublishViewController.m in Sources */,
+				C57D24732106262600CC901A /* EssenseNavController.m in Sources */,
+				C57D24882106273A00CC901A /* MainTabBarController.m in Sources */,
 				C57D242E2106248200CC901A /* AppDelegate.m in Sources */,
 				C57D24302106248200CC901A /* main.m in Sources */,
+				C57D24772106265300CC901A /* FollowNavController.m in Sources */,
+				C57D247F2106267E00CC901A /* NewNavViewController.m in Sources */,
+				C5504AF121082BE800E4198E /* UIImage+Render.m in Sources */,
+				C57D247B2106266D00CC901A /* MeNavViewController.m in Sources */,
 				C57D240B210592A100CC901A /* BudejieTextTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
