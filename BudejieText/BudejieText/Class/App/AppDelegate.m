@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -14,10 +15,45 @@
 
 @implementation AppDelegate
 
-
+//程序启动之后会调用
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    /*加载Main.sotryboard步骤
+    *1.创建窗口
+    *2.创建窗口根控制器，并且设置窗口跟控制器
+    *3.显示窗口
+    */
+    
+    //创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    //创建根控制器并设置
+    //窗口在显示的时候，会把窗口根控制器的View添加到窗口上
+    MainTabBarController *RootController = [[MainTabBarController alloc] init];
+    self.window.rootViewController = RootController;
+//    RootController.view.backgroundColor = [UIColor colorWithRed:1 / 255.0 green:234 / 255.0 blue:234 / 255.0 alpha:1];
+    //tabBar高度49像素  navationBar高度44像素
+    //添加导航控制器为tabbar的子控制器
+    //导航控制器会把自己的根控制器的View添加到自己的view上面去（initWithRootViewController方法中有pushViewController功能）
+    //导航控制器Push，将跟控制器压入栈底
+    //把栈顶控制器的view添加到自己的view上面，并显示出来
+    
+    
+    
+    //显示窗口
+    [self.window makeKeyAndVisible];
+    
     return YES;
+}
+
+
+//收到内存警告之后，在这个方法里面做清除缓存操作
+-(void)applicationDidReceiveMemoryWarning:(UIApplication *)application{
+    /*
+     1.清空图片缓存(SDWebImage)
+     
+     
+     */
+    
 }
 
 
