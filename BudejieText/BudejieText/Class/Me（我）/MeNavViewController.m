@@ -7,7 +7,6 @@
 //
 
 #import "MeNavViewController.h"
-
 @interface MeNavViewController ()
 
 @end
@@ -17,6 +16,32 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    
+    [self setUpNavgationBar];
+}
+
+- (void)setUpNavgationBar{
+    self.navigationItem.title = @"我的";
+    
+    UIBarButtonItem *setting = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-setting-icon"] andHighImage:[UIImage imageNamed:@"mine-setting-icon-click"] addTarget:self action:@selector(settingClick)];
+    
+    UIBarButtonItem *moonLightMode = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"mine-moon-icon"] andSelectImage:[UIImage imageNamed:@"mine-sun-icon-click"] addTarget:self action:@selector(moonLightModeClick:)];
+
+    
+    self.navigationItem.rightBarButtonItems = @[setting,moonLightMode];
+    
+}
+- (void)moonLightModeClick:(UIButton *)btn{
+    
+    btn.selected = !btn.selected;
+//    NSLog(@"moonLightModeClick");
+}
+
+- (void)settingClick{
+    
+    
+//    NSLog(@"settingClick");
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,7 +7,6 @@
 //
 
 #import "FollowNavController.h"
-
 @interface FollowNavController ()
 
 @end
@@ -16,7 +15,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self setUpNavgationBar];
+    
+}
+
+- (void)setUpNavgationBar{
+    self.navigationItem.title = @"我的关注";
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"friendsRecommentIcon"] andHighImage:[UIImage imageNamed:@"friendsRecommentIcon-click"] addTarget:self action:@selector(friendsRecommentClick)];
+    
+    
+    
+}
+
+- (void)friendsRecommentClick{
+    
+//    NSLog(@"朋友关注");
 }
 
 - (void)didReceiveMemoryWarning {

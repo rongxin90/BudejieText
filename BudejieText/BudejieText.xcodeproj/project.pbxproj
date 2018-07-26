@@ -29,6 +29,10 @@
 		C57D2484210626DE00CC901A /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D2482210626DE00CC901A /* PublishViewController.m */; };
 		C57D24872106273A00CC901A /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24862106273A00CC901A /* MainTabBarController.m */; };
 		C57D24882106273A00CC901A /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57D24862106273A00CC901A /* MainTabBarController.m */; };
+		C5EEBBF0210A344A00996A47 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEBBEF210A344A00996A47 /* UIBarButtonItem+item.m */; };
+		C5EEBBF1210A344A00996A47 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEBBEF210A344A00996A47 /* UIBarButtonItem+item.m */; };
+		C5EEBBF6210A3B8600996A47 /* GRTagMainTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEBBF5210A3B8600996A47 /* GRTagMainTableController.m */; };
+		C5EEBBF7210A3B8600996A47 /* GRTagMainTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EEBBF5210A3B8600996A47 /* GRTagMainTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +80,11 @@
 		C57D2482210626DE00CC901A /* PublishViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PublishViewController.m; sourceTree = "<group>"; };
 		C57D24852106273A00CC901A /* MainTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		C57D24862106273A00CC901A /* MainTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		C5EEBBEE210A344A00996A47 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
+		C5EEBBEF210A344A00996A47 /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
+		C5EEBBF2210A3A2100996A47 /* BudejieText.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BudejieText.pch; sourceTree = "<group>"; };
+		C5EEBBF4210A3B8600996A47 /* GRTagMainTableController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRTagMainTableController.h; sourceTree = "<group>"; };
+		C5EEBBF5210A3B8600996A47 /* GRTagMainTableController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRTagMainTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +117,9 @@
 			children = (
 				C5504AEE21082BE800E4198E /* UIImage+Render.h */,
 				C5504AEF21082BE800E4198E /* UIImage+Render.m */,
+				C5EEBBEE210A344A00996A47 /* UIBarButtonItem+item.h */,
+				C5EEBBEF210A344A00996A47 /* UIBarButtonItem+item.m */,
+				C5EEBBF2210A3A2100996A47 /* BudejieText.pch */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -166,6 +178,7 @@
 		C57D24232106248200CC901A /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				C5EEBBF3210A3B5400996A47 /* TagMain(推荐标签) */,
 				C57D2480210626C700CC901A /* Publish(发布) */,
 				C57D246F210625F100CC901A /* Essence（精华） */,
 				C57D24242106248200CC901A /* App */,
@@ -239,6 +252,15 @@
 				C57D2482210626DE00CC901A /* PublishViewController.m */,
 			);
 			path = "Publish(发布)";
+			sourceTree = "<group>";
+		};
+		C5EEBBF3210A3B5400996A47 /* TagMain(推荐标签) */ = {
+			isa = PBXGroup;
+			children = (
+				C5EEBBF4210A3B8600996A47 /* GRTagMainTableController.h */,
+				C5EEBBF5210A3B8600996A47 /* GRTagMainTableController.m */,
+			);
+			path = "TagMain(推荐标签)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,6 +401,8 @@
 				C57D247E2106267E00CC901A /* NewNavViewController.m in Sources */,
 				C57D24762106265300CC901A /* FollowNavController.m in Sources */,
 				C57D2483210626DE00CC901A /* PublishViewController.m in Sources */,
+				C5EEBBF6210A3B8600996A47 /* GRTagMainTableController.m in Sources */,
+				C5EEBBF0210A344A00996A47 /* UIBarButtonItem+item.m in Sources */,
 				C57D242F2106248200CC901A /* main.m in Sources */,
 				C57D242D2106248200CC901A /* AppDelegate.m in Sources */,
 				C57D24872106273A00CC901A /* MainTabBarController.m in Sources */,
@@ -391,11 +415,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57D2484210626DE00CC901A /* PublishViewController.m in Sources */,
+				C5EEBBF1210A344A00996A47 /* UIBarButtonItem+item.m in Sources */,
 				C57D24732106262600CC901A /* EssenseNavController.m in Sources */,
 				C57D24882106273A00CC901A /* MainTabBarController.m in Sources */,
 				C57D242E2106248200CC901A /* AppDelegate.m in Sources */,
 				C57D24302106248200CC901A /* main.m in Sources */,
 				C57D24772106265300CC901A /* FollowNavController.m in Sources */,
+				C5EEBBF7210A3B8600996A47 /* GRTagMainTableController.m in Sources */,
 				C57D247F2106267E00CC901A /* NewNavViewController.m in Sources */,
 				C5504AF121082BE800E4198E /* UIImage+Render.m in Sources */,
 				C57D247B2106266D00CC901A /* MeNavViewController.m in Sources */,
@@ -549,6 +575,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KSSQP7JHBV;
+				GCC_PREFIX_HEADER = BudejieText/Others/BudejieText.pch;
 				INFOPLIST_FILE = BudejieText/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -565,6 +592,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KSSQP7JHBV;
+				GCC_PREFIX_HEADER = BudejieText/Others/BudejieText.pch;
 				INFOPLIST_FILE = BudejieText/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
